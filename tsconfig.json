@@ -7,11 +7,6 @@
         "moduleResolution": "bundler",
         "skipLibCheck": true,
     },
-    "paths": {
-        "@/*": [
-            "./src/*"
-        ]
-    },
     "include": [
         "src/**/*.ts",
         "src/**/*.vue",

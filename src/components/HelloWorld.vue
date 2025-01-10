@@ -3,9 +3,6 @@
 
     defineProps<{ msg: string }>();
 
-    const test: string = 'test';
-    console.log(test);
-
     const count = ref(0);
 </script>
 
