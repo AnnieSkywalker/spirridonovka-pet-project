@@ -1,7 +1,4 @@
-<script setup lang="ts">
-    import HelloWorld from './components/HelloWorld.vue';
-    import test from './components/TestTest.vue';
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <div>
