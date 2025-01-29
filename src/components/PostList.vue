@@ -22,7 +22,6 @@
 </template>
 
 <script setup>
-    import { defineProps } from 'vue';
     import PostsItem from './PostItem.vue';
 
     const { posts } = defineProps({ posts: { type: Array, required: true } });

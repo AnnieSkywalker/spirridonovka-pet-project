@@ -19,8 +19,6 @@
     };
 </script>
 <script setup>
-    import { defineEmits, defineProps } from 'vue';
-
     const { show } = defineProps({
         show: {
             type: Boolean,

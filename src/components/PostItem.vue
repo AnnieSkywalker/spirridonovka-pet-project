@@ -23,8 +23,6 @@
 </template>
 
 <script setup>
-    import { defineProps } from 'vue';
-
     const { post, index } = defineProps({
         post: {
             type: Object,

@@ -18,8 +18,6 @@
     };
 </script>
 <script setup>
-    import { defineProps } from 'vue';
-
     const { totalPage, page } = defineProps({
         totalPage: {
             type: Number,

@@ -22,8 +22,6 @@
     };
 </script>
 <script setup>
-    import { defineProps } from 'vue';
-
     const { options } = defineProps({
         options: {
             type: Array,

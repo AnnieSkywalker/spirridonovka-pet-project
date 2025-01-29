@@ -20,8 +20,6 @@
 </template>
 
 <script setup>
-    import { defineProps } from 'vue';
-
     const { href, userId, first_name, last_name } = defineProps({
         href: {
             type: String,

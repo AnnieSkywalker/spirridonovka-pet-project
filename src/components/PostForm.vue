@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-    import { defineEmits, reactive } from 'vue';
+    import { reactive } from 'vue';
 
     const iconName = 'plus';
     const emit = defineEmits({ create: 'create' });

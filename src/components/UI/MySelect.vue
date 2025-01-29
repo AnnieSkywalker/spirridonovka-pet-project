@@ -26,8 +26,6 @@
     };
 </script>
 <script setup>
-    import { defineEmits, defineProps } from 'vue';
-
     const { modelValue, options } = defineProps({
         modelValue: {
             type: String,
