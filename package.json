@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --mode development",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kyvg/vue3-notification": "^3.4.1",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
     "@vkid/sdk": "^2.4.0",
     "axios": "^1.7.8",
     "vue-jsonp": "^2.0.0",
@@ -19,7 +22,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
-    "eslint-config-prettier": "^9.1.0",
     "prettier": "3.4.2",
     "vite": "^6.0.5",
     "vite-plugin-inspect": "^0.10.6"
