@@ -1,4 +1,32 @@
-<script setup lang="ts"></script>
+<template>
+    <div class="main-container">
+        <app-header></app-header>
+        <main
+            id="main"
+            class="content"
+        >
+            <div class="app">
+                <RouterView></RouterView>
+            </div>
+        </main>
+        <app-footer></app-footer>
+    </div>
+</template>
+
+<script>
+    import AppFooter from './components/Footer.vue';
+    import AppHeader from './components/Header.vue';
+    import { RouterView } from 'vue-router';
+
+    export default {
+        components: {
+            AppFooter,
+            AppHeader,
+        },
+    };
+</script>
+
+<!-- <script setup lang="ts"></script>
 
 <template>
     <div>
@@ -23,8 +51,6 @@
             />
         </a>
     </div>
-    <HelloWorld msg="Vite + Vue" />
-    <test />
 </template>
 
 <style scoped>
@@ -40,4 +66,4 @@
     .logo.vue:hover {
         filter: drop-shadow(0 0 2em #42b883aa);
     }
-</style>
+</style> -->

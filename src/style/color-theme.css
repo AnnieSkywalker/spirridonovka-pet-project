@@ -1,0 +1,91 @@
+:root{
+    /* This is a absolute white and black. */
+    --black-color: #000;
+    --white-color: #fff;
+
+    /* Primary Colors - The foundational color representing brand identity in this template */
+    --primary-color-45: #f50000;
+    --primary-color-50: #ff0000;
+    --primary-color-55: #ff1919;
+    --primary-color-60: #ff3333;
+    --primary-color-80: #ff9999;
+    --primary-color-90: #ffcccc;
+    --primary-color-95: #ffe5e5;
+    --primary-color-99: #fffafa;
+
+    /* Dark Colors - Setting the thematic tone and serving as the predominant background hues in this template */
+    --dark-colors-06: #0f0f0f;
+    --dark-colors-08: #141414;
+    --dark-colors-10: #1a1a1a;
+    --dark-colors-12: #1f1f1f;
+    --dark-colors-15: #262626;
+    --dark-colors-20: #333333;
+    --dark-colors-25: #404040;
+    --dark-colors-30: #4c4c4c;
+
+    /* Grey Colors - Employed for creating inviting and readable text elements throughout the template */
+    --grey-colors-60: #999999;
+    --grey-colors-65: #a6a6a6;
+    --grey-colors-70: #b3b3b3;
+    --grey-colors-75: #bfbfbf;
+    --grey-colors-90: #e4e4e7;
+    --grey-colors-95: #f1f1f3;
+    --grey-colors-97: #f7f7f8;
+    --grey-colors-99: #fcfcfd;
+
+    --teal: #009688;
+
+    --teal-lighten-5: #E0F2F1;
+    --teal-lighten-4: #B2DFDB;
+    --teal-lighten-3: #80CBC4;
+    --teal-lighten-2: #4DB6AC;
+    --teal-lighten-1: #26A69A;
+
+    --teal-darken-1: #00897B;
+    --teal-darken-2: #00796B;
+    --teal-darken-3: #00695C;
+    --teal-darken-4: #004D40;
+
+    --teal-accent-1: #A7FFEB;
+    --teal-accent-2: #64FFDA;
+    --teal-accent-3: #1DE9B6;
+    --teal-accent-4: #00BFA5;
+}
+
+:root.dark {
+    --primary:                 var(--primary-color-60);
+    --background-color:        var(--dark-colors-12);
+    --background-footer:       var(--dark-colors-10);
+    --border-color:            var(--dark-colors-20);
+    --hover:                   var(--primary-color-80);
+
+    --background-ui-el:        var(--dark-colors-10);
+    --background-ui-el-focus:  var(--dark-colors-15);
+
+    --text-title:              var(--grey-colors-95);
+    --text-lite:               var(--grey-colors-75);
+    --text:                    var(--grey-colors-60);
+
+    --fill-svg-face:           var(--primary-color-60);
+    --fill-svg-eyes:           var(--dark-colors-10);
+    --fill-svg-glasses:        var(--grey-colors-90);
+}
+
+:root.lite {
+    --primary:                 var(--teal);
+    --background-color:        var(--white-color);
+    --background-footer:       var(--teal-lighten-5);
+    --border-color:            var(--teal-lighten-4);
+    --hover:                   var(--teal-lighten-4);
+
+    --background-ui-el:        var(--teal-lighten-5);
+    --background-ui-el-focus:  var(--teal-lighten-4);
+
+    --text-title:              var(--teal-darken-4);
+    --text-lite:               var(--teal-lighten-3);
+    --text:                    var(--teal-darken-2);
+
+    --fill-svg-face:           var(--dark-colors-06);
+    --fill-svg-eyes:           var(--dark-colors-06);
+    --fill-svg-glasses:        var(--teal-darken-4);
+}

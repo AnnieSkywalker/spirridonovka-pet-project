@@ -9,6 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vkid/sdk": "^2.4.0",
+    "axios": "^1.7.8",
+    "vue-jsonp": "^2.0.0",
+    "vue-loader": "^17.4.2",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
