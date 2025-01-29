@@ -9,4 +9,9 @@ export default defineConfig({
         port: 80, // Указываем порт 80
         host: 'localhost', // Опционально: указываем хост
     },
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, './src'),
+        },
+    },
 });
