@@ -1,13 +1,15 @@
 module.exports = {
+    testEnvironment: 'jsdom',
+    testEnvironmentOptions: {
+        customExportConditions: ['node', 'node-addons'],
+    },
     moduleFileExtensions: ['js', 'json', 'vue'],
     transform: {
         '^.+\\.js$': 'babel-jest',
-        '^.+\\.vue$': '@vue/vue3-jest', // Используйте @vue/vue2-jest для Vue 2
+        '^.+\\.vue$': '@vue/vue3-jest',
     },
-    testEnvironment: 'jsdom', // Для тестирования в браузерной среде
     moduleNameMapper: {
         '^@/(.*)$': '<rootDir>/src/$1', // Поддержка алиасов, если они используются
         '^@/(.*)$': '<rootDir>/',
     },
-    testMatch: ['**/tests/**/*.spec.js'], // Где искать тесты
 };
