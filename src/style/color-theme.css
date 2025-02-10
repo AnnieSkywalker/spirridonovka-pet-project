@@ -69,6 +69,9 @@
     --fill-svg-face:           var(--primary-color-60);
     --fill-svg-eyes:           var(--dark-colors-10);
     --fill-svg-glasses:        var(--grey-colors-90);
+
+    --darkening-map:          brightness(0.8);
+    --map-bg-btn-panel:    var(--dark-colors-10);
 }
 
 :root.lite {
@@ -88,4 +91,7 @@
     --fill-svg-face:           var(--dark-colors-06);
     --fill-svg-eyes:           var(--dark-colors-06);
     --fill-svg-glasses:        var(--teal-darken-4);
+
+    --darkening-map:          brightness(1);
+    --map-bg-btn-panel:        var(--teal-lighten-5);
 }
