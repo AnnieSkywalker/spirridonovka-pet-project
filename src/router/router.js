@@ -1,4 +1,5 @@
 import About from '../pages/About.vue';
+import Map from '../pages/Map.vue';
 import Login from '../pages/Login.vue';
 import PostPage from '../pages/PostPage.vue';
 import PostsPage from '../pages/PostsPage.vue';
@@ -21,6 +22,10 @@ const routes = [
     {
         path: '/about',
         component: About,
+    },
+    {
+        path: '/map',
+        component: Map,
     },
     {
         path: '/posts/:id',

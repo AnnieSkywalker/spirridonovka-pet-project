@@ -12,6 +12,11 @@
                 to="/about"
                 >about</router-link
             >
+            <router-link
+                class="navbar__link"
+                to="/map"
+                >map</router-link
+            >
             <basic-toggle-switch v-model="checked" />
         </div>
     </div>
